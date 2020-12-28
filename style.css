@@ -1,0 +1,30 @@
+.square
+{
+    width: 200px;
+    height: 200px;
+    border: 5px solid pink;
+}
+
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 630px;
+    height: 630px;
+}
+
+.mole
+{
+    background-image: url('images/mole.png');
+    background-size: cover;
+}
+
+.easy:focus, .medium:focus, .difficult:focus
+{
+    background-color: orange;
+} 
+
+.start
+{
+    margin: 0px 0px 20px;
+}
